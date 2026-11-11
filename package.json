@@ -1,0 +1,11 @@
+{
+  "name": "nk-wa-engine",
+  "version": "0.1.0",
+  "description": "Shared marker extraction/stripping core for NK's WhatsApp AI bots (KNG's kng-engine, Kopi Desk/GOS). Scope is deliberately narrow: parsing + stripping the [[MARKER]] side-effect contract only, not prompt-building -- each host's prompt logic is bespoke to its own business model.",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "test": "node test/markers.test.js"
+  }
+}
